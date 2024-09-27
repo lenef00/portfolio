@@ -194,7 +194,7 @@
     background-size: cover;
     content: "";
 }
-.hello .cnt .mockup {
+.hello .cnt .mockup .photo {
     overflow: hidden;
     font-size: 0;
     line-height: 0;
@@ -204,7 +204,6 @@
     height: 100%;
     object-fit: cover;
 }
-
 .artguaide h2 {
     display: none;
 }
@@ -259,7 +258,7 @@
     background-size: cover;
     content: "";
 }
-.artguaide .cnt .mockup {
+.artguaide .cnt .mockup .photo {
     overflow: hidden;
     font-size: 0;
     line-height: 0;
@@ -269,7 +268,6 @@
     height: 100%;
     object-fit: cover;
 }
-
 .dongsung h2 {
     display: none;
 }
@@ -324,7 +322,7 @@
     background-size: cover;
     content: "";
 }
-.dongsung .cnt .mockup {
+.dongsung .cnt .mockup .photo {
     overflow: hidden;
     font-size: 0;
     line-height: 0;
