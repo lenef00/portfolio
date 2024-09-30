@@ -35,44 +35,80 @@ $(document).ready(function(){
     })
 
     const thema_swiper = new Swiper('.thema #panel_01 .swiper', {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 32, 
         breakpoints: {
-            
+            640: { 
+			slidesPerView: 3,
+			spaceBetween: 32,
+		    },
         },
         navigation: {
             nextEl: '.thema #panel_01 .btn_next',
             prevEl: '.thema #panel_01 .btn_prev',
         },
+        scrollbar: {
+            el: ".thema #panel_01 .swiper-scrollbar",
+            hide: false,
+            draggable: true,
+        },
+        
     });
     const thema2_swiper = new Swiper('.thema #panel_02 .swiper', {
-        slidesPerView: 3,
-        spaceBetween: 32,
+        slidesPerView: 2,
+        spaceBetween: 32, 
         breakpoints: {
+            640: { 
+			slidesPerView: 3,
+			spaceBetween: 32,
+		    },
         },
         navigation: {
             nextEl: '.thema #panel_02 .btn_next',
             prevEl: '.thema #panel_02 .btn_prev',
         },
+        scrollbar: {
+            el: ".thema #panel_02 .swiper-scrollbar",
+            hide: false,
+            draggable: true,
+        },
     });
     const thema3_swiper = new Swiper('.thema #panel_03 .swiper', { 
-        slidesPerView: 3,
-        spaceBetween: 32,
+        slidesPerView: 2,
+        spaceBetween: 32, 
         breakpoints: {
+            640: { 
+			slidesPerView: 3,
+			spaceBetween: 32,
+		    },
         },
         navigation: {
             nextEl: '.thema #panel_03 .btn_next',
             prevEl: '.thema #panel_03 .btn_prev',
         },
+        scrollbar: {
+            el: ".thema #panel_03 .swiper-scrollbar",
+            hide: false,
+            draggable: true,
+        },
     });
     const thema4_swiper = new Swiper('.thema #panel_04 .swiper', { 
-        slidesPerView: 3,
-        spaceBetween: 32,
+        slidesPerView: 2,
+        spaceBetween: 32, 
         breakpoints: {
-        },
+            640: { 
+			slidesPerView: 3,
+			spaceBetween: 32,
+		    },
+        },  
         navigation: {
             nextEl: '.thema #panel_04 .btn_next',
             prevEl: '.thema #panel_04 .btn_prev',
+        },
+        scrollbar: {
+            el: ".thema #panel_04 .swiper-scrollbar",
+            hide: false,
+            draggable: true,
         },
     });
 
@@ -88,5 +124,6 @@ $(document).ready(function(){
         },
 
     });
+
  
 })
