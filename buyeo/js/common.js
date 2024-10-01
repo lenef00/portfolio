@@ -11,7 +11,7 @@ $(document).ready(function(){
 
    function resize_chk(){
         win_w = $(window).width()
-        if(win_w > 1180){
+        if(win_w > 1024){
             pc_mobile = 'pc'
         }else{
             pc_mobile = 'mobile'
@@ -67,6 +67,8 @@ $(document).ready(function(){
         }
     });
 
+    
+    
 
     $('footer .family_site_1 .family_open').on('click', function(){
         $('footer .family_site_1').addClass('open')
